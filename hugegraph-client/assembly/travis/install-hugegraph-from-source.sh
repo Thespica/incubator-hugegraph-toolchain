@@ -21,6 +21,7 @@ if [[ $# -ne 1 ]]; then
     echo "Must input an existing commit id of hugegraph server" && exit 1
 fi
 
+
 COMMIT_ID=$1
 HUGEGRAPH_GIT_URL="https://github.com/apache/hugegraph.git"
 GIT_DIR=hugegraph
